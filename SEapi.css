@@ -1,0 +1,64 @@
+/* Styles the body */
+body {
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    background: url("hubspotImage.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 8px;
+} /*Stack overflow states error could be related to doc starting with comment? */
+
+/* Styles the intro */
+#intro {
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    width: 500px;
+}
+
+/* Styles the contact form */
+#contactForm {
+    color: #000000;
+    width: 50%;
+}
+/* Styles inputs(form fields) */
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Styles the submit button */
+input[type=submit] {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    width: 50%;
+    background-color: #ffffff;
+    color: #383838;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Adds a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+    background-color: #D3D3D3;
+}
+
+/* Styles and fixes the footer */
+.footer {
+    font-weight: 300;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#143352;
+    color: white;
+    text-align: center;
+}
