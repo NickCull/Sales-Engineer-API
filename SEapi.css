@@ -3,11 +3,11 @@ body {
     color: #ffffff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
-    background: url("hubspotImage.webp");
+    background: url("./Assets/hubspotImage.webp");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 8px;
-} /*Stack overflow states error could be related to doc starting with comment? */
+} 
 
 /* Styles the intro */
 #intro {
